@@ -93,9 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8476774837222367120}
   - component: {fileID: -9023651715431082612}
-  - component: {fileID: 683853386464993512}
-  - component: {fileID: 4359028825108434782}
-  - component: {fileID: 7034038231574542617}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -133,45 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _triggerZone: {fileID: 5493524425673714734}
---- !u!114 &683853386464993512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4633249876876424636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d452956a11913041b66b66558902e25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4359028825108434782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4633249876876424636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b12b7afe2a97f4fbcd8f39a30addc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _deathEffect: {fileID: 198334730229523276, guid: bdbdcfd7c511df246af535551f842df5,
-    type: 3}
-  _triggerZone: {fileID: 5493524425673714734}
---- !u!114 &7034038231574542617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4633249876876424636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c63b72b8f333134aa0c5c933cdc2233, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9097083020808772708
 GameObject:
   m_ObjectHideFlags: 0
